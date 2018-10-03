@@ -15,7 +15,7 @@ public class Baeldung_BaeldungPort_Server{
     protected Baeldung_BaeldungPort_Server() throws java.lang.Exception {
         System.out.println("Starting Server");
         Object implementor = new BaeldungPortImpl();
-        String address = "http://localhost:8080/my-first-cxf-springmvc/services/baeldung";
+        String address = "http://localhost:8080/cxf-webmvc/services/baeldung";
         Endpoint.publish(address, implementor);
     }
     
