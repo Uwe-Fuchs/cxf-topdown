@@ -21,7 +21,7 @@ import java.util.logging.Logger;
                       serviceName = "BaeldungService",
                       portName = "BaeldungPort",
                       targetNamespace = "http://endpoint.apachecxf.soap.demo.uwefuchs.com/",
-                      wsdlLocation = "file:/home/uwe/Downloads/baeldung.wsdl",
+                      wsdlLocation = "file:/media/uwe/Daten/Development/Tutorials/ApacheCXF/baeldung.wsdl",
                       endpointInterface = "com.uwefuchs.demo.soap.apachecxf.endpoint.Baeldung")
                       
 public class BaeldungPortImpl implements Baeldung {
